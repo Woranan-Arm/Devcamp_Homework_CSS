@@ -1,0 +1,163 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  /* font-family: "Madimi One", sans-serif; */
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 100px;
+  position: sticky;
+  top: 0;
+}
+
+.logo {
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  background-color: blue;
+}
+
+.s-logo {
+  width: 24px;
+  height: 24px;
+  background-color: aliceblue;
+}
+
+.menu>ul {
+  display: flex;
+  list-style: none;
+  gap: 12px;
+}
+
+.menu>ul>li:hover {
+  border-bottom: 3px solid salmon;
+}
+
+.icon {
+  background-color: chartreuse;
+  width: 36px;
+  height: 100px;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 4px 0;
+  transform: translate(0, -30px);
+}
+
+.icon>p {
+  transform: rotate(90deg);
+}
+
+.contact {
+  display: flex;
+  gap: 12px;
+}
+
+.textbox>fieldset {
+  width: 270px;
+  height: 270px;
+  transform: rotate(-90deg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+  color: aliceblue;
+  
+}
+
+.textbox>fieldset>p {
+  transform: rotate(90deg);
+  margin-top: 20px;
+  margin-left: -150px;
+}
+
+
+
+
+fieldset legend {
+  transform: rotate(90deg);
+  text-align: center;
+}
+
+.hero,
+.banner {
+  background-image: url("./building.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.text-1 {
+  display: flex;
+  width: 50%;
+  gap: 12px;
+  margin: auto;
+}
+
+
+
+.yellow-tag {
+  background-color: yellowgreen;
+  width: 45px;
+  height: 55px;
+  transform: translate(0, 30px);
+}
+
+.img {
+  display: flex;
+}
+
+.img img {
+  transform: translate(0, -30px);
+  box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.4);
+  width: 250px ;
+  height: 300px ;
+}
+
+.text-1 .text {
+  align-self: center;
+  font-family: "Madimi One", sans-serif;
+}
+
+.banner {
+  height: 350px;
+  display: flex;
+  justify-content: end;
+}
+
+.banner>.info {
+  background-color: rgba(0, 0, 0, 0.4);
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  
+}
+
+footer{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+
+.F1 img {
+        width: 100px; /* ปรับขนาดความกว้างของรูปภาพ */
+        height: 100px; /* ให้รูปภาพปรับสัดส่วนตามความกว้าง */
+}
+
+nav .info{
+  color: green;
+}
+
+.info{
+  color: aliceblue;
+}
